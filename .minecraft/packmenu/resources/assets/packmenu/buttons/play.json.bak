@@ -1,0 +1,19 @@
+{
+	"x": -100,
+	"y": 30,
+	"width": 200,
+	"height": 20,
+	"texture": "packmenu:textures/gui/play.png",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 200,
+	"texHeight": 40,
+	"widgets": false,
+	"langKey": "Jugar",
+	"fontColor": 16777215,
+	"hoverFontColor": 16777215,
+	"action": "CONNECT_TO_SERVER",
+	"data": "kemonocraft.serveminecraft.net"
+}

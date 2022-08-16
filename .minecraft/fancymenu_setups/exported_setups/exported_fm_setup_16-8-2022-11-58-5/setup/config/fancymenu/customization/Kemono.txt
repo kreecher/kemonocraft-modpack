@@ -1,0 +1,294 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = custom_textures/background.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1009
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 9dfa7bae-889b-4ca3-bfb2-644a439c10c61660666667240
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = c1982290-7afd-4bd6-92a5-9d2b075060231660666667244
+  y = 295
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 9065f041-208f-4620-afcf-c81c84ec69ef1660666667244
+  y = 317
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = dafc619a-6bfa-4b2b-865f-a2dba18120d81660666667244
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 03980443-77c5-4edf-aca2-4d59846d2a651660666667244
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 614a31e4-b99f-41e3-aa31-169d7d311f021660666667244
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = custom_textures\buttons\play2.png
+  label = Jugar
+  loopbackgroundanimations = true
+  x = 221
+  width = 200
+  actionid = 9a9e176b-373f-48a4-addf-35dd7c5c09681660666950476
+  action = addbutton
+  y = 197
+  backgroundnormal = custom_textures\buttons\play1.png
+  value = kemonocraft.serveminecraft.net
+  height = 31
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = custom_textures\buttons\salir2.png
+  label = Salir
+  loopbackgroundanimations = true
+  x = 310
+  width = 110
+  actionid = 7aaec6f8-a48c-4e70-b1cf-1ec99820adce1660667052333
+  action = addbutton
+  y = 238
+  backgroundnormal = custom_textures\buttons\salir1.png
+  value = 
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = custom_textures\buttons\kreecher97.png
+  description = Link al Twitch de iDarkKreecher%n%%n%Organizador, Custom Button Textures and%n%Main Menu Creation, Server Host
+  label = 
+  loopbackgroundanimations = true
+  x = 250
+  width = 20
+  actionid = e07ece4e-2bf3-4866-9ba9-dabc1b276e2c1660667181577
+  action = addbutton
+  y = 238
+  backgroundnormal = custom_textures\buttons\kreecher97.png
+  value = https://www.twitch.tv/idarkkreecher
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = custom_textures\buttons\rokeli27.png
+  description = Link al Twitch de Rokeli27%n%%n%CEO, Organizador, Director Creativo,%n%ModPack Creator, Builder
+  label = 
+  loopbackgroundanimations = true
+  x = 220
+  width = 20
+  actionid = f7bd066d-a6b6-462a-96e4-6ca5b80c14821660667231627
+  action = addbutton
+  y = 238
+  backgroundnormal = custom_textures\buttons\rokeli27.png
+  value = https://www.twitch.tv/rokeli27
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = custom_textures\buttons\gear2.png
+  label = 
+  loopbackgroundanimations = true
+  x = 280
+  width = 20
+  actionid = 8b670a97-71a8-4f94-9e7b-3c6172e122201660667280870
+  action = addbutton
+  y = 238
+  backgroundnormal = custom_textures\buttons\gear1.png
+  value = net.minecraft.client.gui.screens.OptionsScreen
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = custom_textures\splash\splash.txt
+  rotation = 20.0
+  scale = 1.0
+  refresh = true
+  bouncing = true
+  vanilla-like = false
+  x = 412
+  actionid = 00065974-d744-42c1-bb6f-5cb938ae46dc1660667817503
+  action = addsplash
+  y = 182
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Creadores de KemonoCraft:%n%Rokeli27 & iDarkKreecher
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 9
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 00612cae-6afd-413c-839b-b8b612ef422b1660667882237
+  y = 290
+  alignment = left
+  base_color = ffcf4d
+  height = 22
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Forge 40.1.30%n%Minecraft 1.18.2
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 9
+  width = 94
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 968df872-b8c5-4f26-90e0-89f86decdb821660668062394
+  y = 318
+  alignment = left
+  height = 20
+}
+

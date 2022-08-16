@@ -1,0 +1,18 @@
+{
+	"x": 2,
+	"y": 55,
+	"width": 98,
+	"height": 20,
+	"texture": "packmenu:textures/gui/salir.png",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 98,
+	"texHeight": 40,
+	"langKey": "Salir",
+	"fontColor": 16777215,
+	"hoverFontColor": 16777215,
+	"widgets": false,
+	"action": "QUIT"
+}
