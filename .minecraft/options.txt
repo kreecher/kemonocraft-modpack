@@ -160,7 +160,7 @@ key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
 key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
-key_CharacterScreen:key.keyboard.f12
+key_CharacterScreen:key.keyboard.unknown
 key_MPM 1:key.keyboard.keypad.subtract
 key_MPM 2:key.keyboard.unknown
 key_MPM 3:key.keyboard.unknown
