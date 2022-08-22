@@ -1,19 +1,19 @@
-#Tue Aug 16 15:55:05 CDT 2022
-handDepthMul=0.125
-TexMinFilB=0
-oldLighting=default
+#Mon Aug 22 17:55:42 CDT 2022
+TexMagFilB=0
 TexMagFilN=0
-tweakBlockDamage=false
 TexMagFilS=0
-cloudShadow=false
-shaderPack=ComplementaryShaders_v4.5.1.zip
+TexMinFilB=0
 TexMinFilN=0
-specularMapEnabled=true
+TexMinFilS=0
+antialiasingLevel=0
+cloudShadow=false
+handDepthMul=0.125
 normalMapEnabled=true
 oldHandLight=default
+oldLighting=default
 renderResMul=1.0
-TexMinFilS=0
-shadowResMul=1.0
+shaderPack=ComplementaryShaders_v4.5.1.zip
 shadowClipFrustrum=true
-TexMagFilB=0
-antialiasingLevel=0
+shadowResMul=1.0
+specularMapEnabled=true
+tweakBlockDamage=false

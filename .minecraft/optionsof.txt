@@ -66,4 +66,4 @@ ofFastMath:false
 ofFastRender:false
 ofChatBackground:0
 ofChatShadow:true
-key_of.key.zoom:key.mouse.4
+key_of.key.zoom:key.keyboard.c
