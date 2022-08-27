@@ -29,15 +29,15 @@ simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
 particles:0
-maxFps:145
+maxFps:75
 difficulty:2
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","file/Default-Dark-Mode-1.18-v1.3.4.zip","file/Dark_Loading_Screen.zip","file/modern_font_pack_je_hd_jp_v819.zip","file/FreshAnimations_v1.6.1.zip","file/Enhanced+Boss+Bars+1.0+[1.18].zip","file/Axolotl-Totem+[1.18.2].zip"]
-incompatibleResourcePacks:["quark:emote_resources"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","file/Default-Dark-Mode-1.18-v1.3.4.zip","file/Dark_Loading_Screen.zip","file/modern_font_pack_je_hd_jp_v819.zip","file/PotionBottlesPlusClassic.zip","file/FreshAnimations_v1.6.1.zip","file/Enhanced+Boss+Bars+1.0+[1.18].zip","file/Axolotl-Totem+[1.18.2].zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/PotionBottlesPlusClassic.zip"]
 lastServer:
 lang:es_mx
 soundDevice:
@@ -126,8 +126,8 @@ key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
-key_Reload Menu | CTRL + ALT + :key.keyboard.r
-key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
+key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown
@@ -158,6 +158,7 @@ key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
+key_key.reveal:key.keyboard.g
 key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
 key_CharacterScreen:key.keyboard.unknown
@@ -173,6 +174,8 @@ key_key.hexerei.book_hovering_recipe:key.keyboard.r
 key_key.hexerei.glasses_zoom:key.keyboard.z
 key_treechop.key.toggle_chopping:scancode.0
 key_treechop.key.toggle_felling:scancode.0
+key_key.quest_log:key.keyboard.k
+key_key.untrack:key.keyboard.period
 key_treechop.key.cycle_sneak_behavior:scancode.0
 key_treechop.key.open_settings_overlay:key.keyboard.n
 key_key.curios.open.desc:key.keyboard.g
@@ -206,8 +209,6 @@ key_key.inventoryhud.openconfig:key.keyboard.o
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.z
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -226,14 +227,16 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.change_hotbar:key.keyboard.z
+key_quark.keybind.autorun:key.keyboard.unknown
 key_quark.keybind.back:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.k
+key_quark.keybind.camera_mode:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
@@ -241,11 +244,11 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
 key_key.player_companions.aggression:key.keyboard.left.alt
