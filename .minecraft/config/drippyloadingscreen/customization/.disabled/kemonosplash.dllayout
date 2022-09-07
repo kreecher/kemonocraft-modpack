@@ -1,0 +1,38 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = custom_textures/splash_background1.jpg
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  path = custom_textures/logos/logo_bridge.png
+  orientation = mid-centered
+  x = 0
+  width = 416
+  action = addtexture
+  actionid = 212003f8-1381-4b2d-b3a6-140ca6e7ca5f1662326491181
+  y = -30
+  height = 65
+}
+
+customization {
+  path = custom_textures/buttons/new/gif_loading.gif
+  orientation = bottom-right
+  x = -10
+  width = 38
+  action = addtexture
+  actionid = 9caae0ea-c77e-459c-bd3e-77d69763c5511662402045916
+  y = -9
+  height = 38
+}
+

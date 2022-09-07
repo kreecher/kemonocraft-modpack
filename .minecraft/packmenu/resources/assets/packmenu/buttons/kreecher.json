@@ -1,0 +1,17 @@
+{
+	"x": -50,
+	"y": 55,
+	"width": 20,
+	"height": 20,
+	"texture": "packmenu:textures/gui/kreecher.png",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 20,
+	"texHeight": 40,
+	"widgets": false,
+	"langKey": " ",
+	"action": "OPEN_URL",
+	"data": "https://www.twitch.tv/idarkkreecher"
+}

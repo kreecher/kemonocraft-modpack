@@ -57,7 +57,7 @@ ofRenderRegions:false
 ofSmartAnimations:false
 ofDynamicFov:true
 ofAlternateBlocks:true
-ofDynamicLights:2
+ofDynamicLights:1
 ofScreenshotSize:1
 ofCustomEntityModels:true
 ofCustomGuis:true
@@ -66,4 +66,4 @@ ofFastMath:false
 ofFastRender:false
 ofChatBackground:0
 ofChatShadow:true
-key_of.key.zoom:key.keyboard.c
+key_of.key.zoom:key.mouse.4

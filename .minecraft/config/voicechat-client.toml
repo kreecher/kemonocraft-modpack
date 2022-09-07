@@ -31,7 +31,7 @@ microphone = "OpenAL Soft on Microphone (HyperX Quadcast)"
 #Empty for default device
 speaker = "OpenAL Soft on Auriculares (3- Astro A20 Game)"
 #If the microphone is muted (only when using voice activation)
-muted = true
+muted = false
 #If the voice chat is disabled (sound and microphone off)
 disabled = false
 #If the voice chat icons should be hidden
