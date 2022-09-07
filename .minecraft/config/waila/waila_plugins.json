@@ -13,7 +13,7 @@
     "redstone.repeater": true,
     "redstone.comparator": true,
     "redstone.level": true,
-    "player_head.name": true,
+    "player_head.name": false,
     "level.composter": true,
     "level.honey": true,
     "note_block.type": true,
@@ -24,11 +24,11 @@
   "waila": {
     "show_blocks": true,
     "show_fluids": false,
-    "show_entities": true,
+    "show_entities": false,
     "show_icon": true,
-    "show_mod_name": true,
+    "show_mod_name": false,
     "show_registry": false,
-    "show_entity_hp": true,
+    "show_entity_hp": false,
     "show_states": false,
     "show_pos": false
   }
