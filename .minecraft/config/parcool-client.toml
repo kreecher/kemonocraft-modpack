@@ -3,7 +3,7 @@
 	canCatLeap = true
 	canCrawl = true
 	#Possibility to Frontward-Dodge By double tapping a button
-	canFrontDodgeByDoubleTapping = true
+	canFrontDodgeByDoubleTapping = false
 	canDodge = true
 	canFastRunning = true
 	canClingToCliff = true
@@ -21,38 +21,17 @@
 	#Range: 0.001 ~ 4.5
 	fastRunModifier = 3.0
 
-["Stamina HUD Configuration"]
-	#hide stamina HUD when Stamina is infinite
-	hideS_HUD = false
-	#use Light Stamina HUD
-	useLightHUD = false
-	#horizontal alignment
-	#Allowed Values: Left, Right
-	align_H_S_HUD = "Right"
-	#vertical alignment
-	#Allowed Values: Top, Bottom
-	align_V_S_HUD = "Bottom"
-	#horizontal margin
-	#Range: 0 ~ 100
-	margin_H_S_HUD = 3
-	#vertical margin
-	#Range: 0 ~ 100
-	margin_V_S_HUD = 3
-	#vertical offset of light stamina HUD
-	#Range: -50 ~ 50
-	offset_V_LS_HUD = 0
-
 ["Other Configuration"]
 	#Auto turning forward when WallJump
 	autoTurningWallJump = false
 	#Disable WallJump toward a wall
-	disableWallJumpTowardWall = false
+	disableWallJumpTowardWall = true
 	#Disable Roll rotation of camera
 	disableCameraRotationRolling = false
 	#Disable Flipping rotation of camera
 	disableCameraRotationFlipping = false
 	#Disable Double-Tapping For Dodge. Please Use Dodge Key instead
-	disableDoubleTapping = false
+	disableDoubleTapping = true
 	#Disable Crawl in air (experimental)
 	disableCrawlInAir = true
 	#Enable Roll While player is in creative mode (experimental)
@@ -100,4 +79,25 @@
 	[Stamina.ParCool]
 		#ParCool is Active
 		ParCool_Activation = true
+
+["Stamina HUD Configuration"]
+	#hide stamina HUD when Stamina is infinite
+	hideS_HUD = true
+	#use Light Stamina HUD
+	useLightHUD = false
+	#horizontal alignment
+	#Allowed Values: Left, Right
+	align_H_S_HUD = "Right"
+	#vertical alignment
+	#Allowed Values: Top, Bottom
+	align_V_S_HUD = "Bottom"
+	#horizontal margin
+	#Range: 0 ~ 100
+	margin_H_S_HUD = 3
+	#vertical margin
+	#Range: 0 ~ 100
+	margin_V_S_HUD = 3
+	#vertical offset of light stamina HUD
+	#Range: -50 ~ 50
+	offset_V_LS_HUD = 0
 
