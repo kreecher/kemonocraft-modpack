@@ -24,11 +24,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = hidebutton
 }
@@ -50,6 +45,11 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
   action = hidebutton
 }
 
@@ -215,7 +215,7 @@ customization {
   action = addbutton
   y = 0
   backgroundnormal = custom_textures\buttons\new\btnplay.png
-  value = kemonocraft.serveminecraft.net
+  value = kemonocraftoficial.serveminecraft.net
   height = 20
 }
 
