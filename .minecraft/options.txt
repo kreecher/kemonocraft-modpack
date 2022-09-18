@@ -128,7 +128,7 @@ key_key.journeymap.fullscreen.disable_buttons:key.keyboard.h
 key_Toggle Zoom:key.keyboard.z
 key_Toggle Drippy Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_Reload Menu | CTRL + ALT + :key.keyboard.unknown
-key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
+key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown
@@ -159,8 +159,8 @@ key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.craftpresence.config_keycode.name:key.keyboard.unknown
-key_key.carry.desc:key.keyboard.left.shift
 key_key.reveal:key.keyboard.keypad.multiply
+key_key.carry.desc:key.keyboard.left.shift
 key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
 key_CharacterScreen:key.keyboard.unknown
@@ -170,14 +170,14 @@ key_MPM 3:key.keyboard.unknown
 key_MPM 4:key.keyboard.unknown
 key_MPM 5:key.keyboard.unknown
 key_MPM Camera:key.keyboard.left.control
+key_key.quest_log:key.keyboard.k
+key_key.untrack:key.keyboard.period
+key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_key.hexerei.broomDescend:key.keyboard.left.shift
 key_key.hexerei.book_hovering_uses:key.keyboard.u
 key_key.hexerei.book_hovering_recipe:key.keyboard.r
 key_key.hexerei.glasses_zoom:key.keyboard.z
-key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
-key_key.quest_log:key.keyboard.k
-key_key.untrack:key.keyboard.period
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
 key_treechop.key.open_settings_overlay:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
@@ -201,7 +201,6 @@ key_key.securitycraft.cameraZoomIn:key.keyboard.equal
 key_key.securitycraft.cameraZoomOut:key.keyboard.minus
 key_key.securitycraft.cameraEmitRedstone:key.keyboard.r
 key_key.securitycraft.cameraActivateNightVision:key.keyboard.n
-key_quark.keybind.autorun:key.keyboard.unknown
 key_key.crawl.description:key.keyboard.c
 key_key.grab.description:key.mouse.right
 key_key.breakfall.description:key.keyboard.r
@@ -211,7 +210,6 @@ key_key.wallslide.description:key.mouse.right
 key_key.vault.description:key.mouse.right
 key_key.horizontalwallrun.description:key.keyboard.r
 key_key.parcool.setting.open:key.keyboard.unknown
-key_quark.keybind.back:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
@@ -222,6 +220,28 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_key.inventoryhud.toggle:key.keyboard.unknown
+key_key.inventoryhud.openconfig:key.keyboard.o
+key_key.inventoryhud.togglepot:key.keyboard.unknown
+key_key.inventoryhud.togglearm:key.keyboard.unknown
+key_key.inventoryhud.toggleall:key.keyboard.unknown
+key_quark.keybind.change_hotbar:key.keyboard.grave.accent
+key_key.cpm.gestureMenu:key.keyboard.unknown
+key_key.cpm.renderToggle:key.keyboard.unknown
+key_key.cpm.qa_1:key.keyboard.unknown
+key_key.cpm.qa_2:key.keyboard.unknown
+key_key.cpm.qa_3:key.keyboard.unknown
+key_key.cpm.qa_4:key.keyboard.unknown
+key_key.cpm.qa_5:key.keyboard.unknown
+key_key.cpm.qa_6:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -240,27 +260,7 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
-key_quark.keybind.change_hotbar:key.keyboard.grave.accent
-key_key.inventoryhud.toggle:key.keyboard.unknown
-key_key.inventoryhud.openconfig:key.keyboard.o
-key_key.inventoryhud.togglepot:key.keyboard.unknown
-key_key.inventoryhud.togglearm:key.keyboard.unknown
-key_key.inventoryhud.toggleall:key.keyboard.unknown
-key_key.cpm.gestureMenu:key.keyboard.unknown
-key_key.cpm.renderToggle:key.keyboard.unknown
-key_key.cpm.qa_1:key.keyboard.unknown
-key_key.cpm.qa_2:key.keyboard.unknown
-key_key.cpm.qa_3:key.keyboard.unknown
-key_key.cpm.qa_4:key.keyboard.unknown
-key_key.cpm.qa_5:key.keyboard.unknown
-key_key.cpm.qa_6:key.keyboard.unknown
-key_quark.keybind.transfer_insert:key.keyboard.unknown
-key_quark.keybind.transfer_extract:key.keyboard.unknown
-key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.camera_mode:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
-key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_quark.keybind.back:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.paraglider.paragliderSettings:key.keyboard.p:CONTROL
@@ -268,10 +268,10 @@ key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.p
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
-key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
