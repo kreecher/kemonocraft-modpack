@@ -3,17 +3,7 @@
   "editorLastVersion": "0.5.0a",
   "editorMenuMouseButton": 1.0,
   "editorRecentProjects": [
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2\\.minecraft\\modelos\\Nutria papu papa.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2\\.minecraft\\modelos\\Nutria Bzrap.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\Nutria Playera.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\nutriaGus.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\NutriaArgentina.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\Nutria sin hoja.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\banana.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2\\.minecraft\\modelos\\titi.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\Jake el Perro.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\NutriaSpreend.cpmproject",
-    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.0\\.minecraft\\modelos\\Nutria Bzrap.cpmproject"
+    "D:\\Users\\kreecher\\Descargas\\Juegos\\MultiMC\\instances\\KemonoCraft-1.18.2-v1.2.2.1b\\.minecraft\\modelos\\Nutria sin hoja.cpmproject"
   ],
   "editorRotateMouseButton": 2.0,
   "editorSelectMouseButton": 0.0,
@@ -22,5 +12,9 @@
   "serverSettings": {},
   "blockedList": {},
   "editorUVAreaAlpha": 0.8,
-  "friendList": {}
+  "friendList": {},
+  "playerSettings": {},
+  "globalSettings": {},
+  "friendSettings": {},
+  "safetyProfiles": {}
 }

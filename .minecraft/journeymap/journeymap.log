@@ -1,9 +1,9 @@
-[16:47:45] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[16:47:45] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[16:47:45] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[16:47:45] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[16:47:45] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[16:47:45] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.0, built with Forge 1.18.2-40.0.4
+[15:50:09] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[15:50:09] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[15:50:09] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[15:50:09] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[15:50:09] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[15:50:09] [Render thread/INFO] [?] Version: JourneyMap 1.18.2-5.8.0, built with Forge 1.18.2-40.0.4
 Forge: 40.1.30
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=es_mx, locale=en_us
 Features: 
@@ -17,34 +17,75 @@ Features:
 	MapBiome : singleplayer = true , multiplayer = true
 MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.8.0, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=25, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=false, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.4, showPlayers=true, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.8.0, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8.0, zoomLevel=0, showPlayers=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.52}
-WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.0, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.8.0, zoomLevel=0, showPlayers=true, showEntityNames=true, showPlayerHeading=true, showVillagers=false, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=false, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=false, dragScale=1, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.52}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.8.0, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=true, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=64, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=164, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=false, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.8.0, port=8080, enabled=false}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.0, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.8.0, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=0, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.0, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, glErrorChecking=false, autoMapPoll=2000}
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.HudOverlayHandler
-[16:47:45] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PopupMenuEventHandler
-[16:47:45] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 208.2ms
-[16:47:57] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[16:47:57] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[16:47:57] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[16:47:57] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[16:47:57] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 270.05ms
-[16:47:58] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.8.5 for Minecraft 1.18.2 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/3820040
-[16:50:02] [Netty Client IO #0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[16:50:09] [Render thread/INFO] [JourneymapClient] World UID is set to: 1ec314fc-6c72-46d6-8924-be854e7e0a29
-[16:50:11] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[16:50:11] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2d1\.minecraft\journeymap\data\mp\kemonocraftoficial~serveminecraft~net_1ec314fc~6c72~46d6~8924~be854e7e0a29\waypoints
-[16:50:11] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2d1\.minecraft\journeymap\data\mp\kemonocraftoficial~serveminecraft~net_1ec314fc~6c72~46d6~8924~be854e7e0a29\overworld. Memory: 3128MB total, 1509MB free 
-[16:50:11] [Render thread/INFO] [ChatLog] 
-[16:50:24] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2d1\.minecraft\journeymap\data\mp\kemonocraftoficial~serveminecraft~net_1ec314fc~6c72~46d6~8924~be854e7e0a29\minecraft:overworld
-[16:50:29] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
-[16:50:29] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.8.0, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.8.0, announceMod=false, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=0, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=false, browserPoll=2000, mapBlendFoliage=true, hideSpectators=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.8.0, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, glErrorChecking=false, autoMapPoll=2000}
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.HudOverlayHandler
+[15:50:09] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PopupMenuEventHandler
+[15:50:09] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 203.36ms
+[15:50:21] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[15:50:21] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[15:50:21] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[15:50:21] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[15:50:21] [Render thread/INFO] [VersionCheck] Update check disabled in properties file.
+[15:50:21] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 284.39ms
+[17:42:35] [Netty Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[17:42:43] [Render thread/INFO] [JourneymapClient] World UID is set to: 1ec314fc-6c72-46d6-8924-be854e7e0a29
+[17:42:43] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:42:43] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:42:43] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[17:42:45] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[17:42:45] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\kemonocraftoficial~serveminecraft~net_1ec314fc~6c72~46d6~8924~be854e7e0a29\waypoints
+[17:42:45] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\kemonocraftoficial~serveminecraft~net_1ec314fc~6c72~46d6~8924~be854e7e0a29\overworld. Memory: 3976MB total, 2128MB free 
+[17:42:45] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:42:45] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:42:45] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[17:43:15] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\kemonocraftoficial~serveminecraft~net_1ec314fc~6c72~46d6~8924~be854e7e0a29\minecraft:overworld
+[17:43:20] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[17:43:20] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[17:43:29] [Netty Client IO #3/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[17:43:36] [Render thread/INFO] [JourneymapClient] World UID is set to: 1ec314fc-6c72-46d6-8924-be854e7e0a29
+[17:43:36] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:43:36] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:43:36] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[17:43:36] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\waypoints
+[17:43:36] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\overworld. Memory: 3976MB total, 1198MB free 
+[17:43:36] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:43:36] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:43:36] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[17:44:27] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\minecraft:overworld
+[17:44:32] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[17:44:32] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[17:44:41] [Netty Client IO #5/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[17:44:47] [Render thread/INFO] [JourneymapClient] World UID is set to: 1ec314fc-6c72-46d6-8924-be854e7e0a29
+[17:44:47] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:44:47] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:44:47] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[17:44:48] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\waypoints
+[17:44:48] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\overworld. Memory: 3976MB total, 575MB free 
+[17:44:48] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:44:48] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:44:48] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[17:47:44] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\minecraft:overworld
+[17:47:49] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[17:47:49] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[17:57:16] [Netty Client IO #7/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[17:57:22] [Render thread/INFO] [JourneymapClient] World UID is set to: 1ec314fc-6c72-46d6-8924-be854e7e0a29
+[17:57:22] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:57:22] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:57:22] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers
+[17:57:22] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\waypoints
+[17:57:22] [Render thread/INFO] [JourneymapClient] Mapping started in D:\Users\kreecher\Descargas\Juegos\MultiMC\instances\KemonoCraft-1.18.2-v1.2.2.1b\.minecraft\journeymap\data\mp\Oficial_1ec314fc~6c72~46d6~8924~be854e7e0a29\overworld. Memory: 3976MB total, 796MB free 
+[17:57:22] [Render thread/INFO] [FeatureManager] Feature disabled: RadarAnimals
+[17:57:22] [Render thread/INFO] [FeatureManager] Feature disabled: RadarMobs
+[17:57:22] [Render thread/INFO] [FeatureManager] Feature disabled: RadarVillagers

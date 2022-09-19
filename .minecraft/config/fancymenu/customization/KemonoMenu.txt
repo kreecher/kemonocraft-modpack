@@ -77,12 +77,12 @@ customization {
 
 customization {
   path = custom_textures/logos/logo_3d.png
-  orientation = top-left
-  x = 186
-  width = 268
+  orientation = mid-centered
+  x = -90
+  width = 181
   action = addtexture
   actionid = af2fbe70-8c2a-4a5d-90d1-2a934d1f1b8f1662361451413
-  y = 58
-  height = 30
+  y = -87
+  height = 20
 }
 

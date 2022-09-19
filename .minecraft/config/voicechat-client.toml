@@ -9,7 +9,7 @@ voice_activation_threshold = -50.0
 voice_chat_volume = 1.0
 #The voice chat microphone amplification
 #Range: 0.0 ~ 4.0
-microphone_amplification = 1.3181818181818181
+microphone_amplification = 1.8606060606060602
 #The size of the audio output buffer in packets
 #Higher values mean a higher latency, but less crackles
 #Increase this value if you have an unstable internet connection
@@ -29,7 +29,7 @@ voice_deactivation_delay = 25
 microphone = "OpenAL Soft on Microphone (HyperX Quadcast)"
 #The speaker used by the voice chat
 #Empty for default device
-speaker = "OpenAL Soft on Auriculares (3- Astro A20 Game)"
+speaker = "OpenAL Soft on Altavoces (Realtek(R) Audio)"
 #If the microphone is muted (only when using voice activation)
 muted = false
 #If the voice chat is disabled (sound and microphone off)

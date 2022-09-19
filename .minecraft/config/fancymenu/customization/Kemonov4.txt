@@ -79,6 +79,18 @@ customization {
 }
 
 customization {
+  orientation = top-centered
+  shape = rectangle
+  color = #10101050
+  x = -71
+  width = 142
+  action = addshape
+  actionid = d6030254-7818-4149-af24-96c6e571aa721662329374049
+  y = 0
+  height = %guiheight%
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 186
@@ -170,7 +182,7 @@ customization {
   enable_scrolling = false
   shadow = true
   delayappearanceseconds = 1.0
-  scale = 1.2
+  scale = 1.0
   source = Creadores de KemonoCraft:%n%Rokeli27 & iDarkKreecher
   text_border = 0
   case_mode = normal
@@ -182,24 +194,12 @@ customization {
   width = 179
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c0dd7dee-17bb-40d2-b95e-72546143ddf31661206067744
-  y = -21
+  y = -19
   delayappearance = true
   alignment = right
   base_color = ffd152
   delayappearanceeverytime = false
-  height = 21
-}
-
-customization {
-  orientation = mid-centered
-  shape = rectangle
-  color = #10101050
-  x = -69
-  width = 142
-  action = addshape
-  actionid = d6030254-7818-4149-af24-96c6e571aa721662329374049
-  y = -168
-  height = 343
+  height = 19
 }
 
 customization {
@@ -238,7 +238,7 @@ customization {
   width = 60
   actionid = ff46beca-8bbd-4c31-b0de-6e5a35e9cdfa1661205314289
   action = addbutton
-  y = 30
+  y = 29
   delayappearance = true
   backgroundnormal = custom_textures\buttons\new\alt\botonsalir2.png
   value = 
@@ -269,7 +269,7 @@ customization {
 }
 
 customization {
-  orientation = mid-centered
+  orientation = bottom-centered
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = custom_textures\buttons\rokeli27.png
@@ -280,14 +280,14 @@ customization {
   width = 20
   actionid = c4c1e9f0-1724-4319-870e-4c1ee01e35e81661205464324
   action = addbutton
-  y = 148
+  y = -20
   backgroundnormal = custom_textures\buttons\rokeli27.png
   value = https://www.twitch.tv/rokeli27
   height = 20
 }
 
 customization {
-  orientation = mid-centered
+  orientation = bottom-centered
   restartbackgroundanimations = true
   buttonaction = openlink
   backgroundhovered = custom_textures\buttons\kreecher97.png
@@ -298,7 +298,7 @@ customization {
   width = 20
   actionid = 96a5312c-596e-48be-adbf-e617db66795f1661205416036
   action = addbutton
-  y = 148
+  y = -20
   backgroundnormal = custom_textures\buttons\kreecher97.png
   value = https://www.twitch.tv/idarkkreecher
   height = 20
@@ -321,11 +321,11 @@ customization {
   shadow = true
   splashfilepath = custom_textures\splash\splash.txt
   rotation = 20.0
-  scale = 1.3
+  scale = 1.0
   refresh = true
   bouncing = true
   vanilla-like = false
-  x = 152
+  x = 151
   actionid = c875ea4d-0fd1-4412-a9b1-5018f0e5a5391661206261239
   action = addsplash
   y = -81
