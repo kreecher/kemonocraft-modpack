@@ -79,18 +79,6 @@ customization {
 }
 
 customization {
-  orientation = top-centered
-  shape = rectangle
-  color = #10101050
-  x = -71
-  width = 142
-  action = addshape
-  actionid = d6030254-7818-4149-af24-96c6e571aa721662329374049
-  y = 0
-  height = %guiheight%
-}
-
-customization {
   orientation = top-left
   hidden = true
   x = 186
@@ -156,6 +144,18 @@ customization {
   actionid = 9a511407-ebed-4cee-b046-36ebd3210a431661205129372
   y = 0
   height = 30
+}
+
+customization {
+  orientation = top-centered
+  shape = rectangle
+  color = #10101050
+  x = -71
+  width = 142
+  action = addshape
+  actionid = d6030254-7818-4149-af24-96c6e571aa721662329374049
+  y = 0
+  height = %guiheight%
 }
 
 customization {
@@ -238,7 +238,7 @@ customization {
   width = 60
   actionid = ff46beca-8bbd-4c31-b0de-6e5a35e9cdfa1661205314289
   action = addbutton
-  y = 29
+  y = 30
   delayappearance = true
   backgroundnormal = custom_textures\buttons\new\alt\botonsalir2.png
   value = 
