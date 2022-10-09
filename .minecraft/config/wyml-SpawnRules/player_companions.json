@@ -1,0 +1,79 @@
+{
+	"mod": "player_companions",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"snail": {
+						// Do not edit this name
+						"name": "snail",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"small_ghast": {
+						// Do not edit this name
+						"name": "small_ghast",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"rooster": {
+						// Do not edit this name
+						"name": "rooster",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"small_slime": {
+						// Do not edit this name
+						"name": "small_slime",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"firefly": {
+						// Do not edit this name
+						"name": "firefly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"welsh_corgi": {
+						// Do not edit this name
+						"name": "welsh_corgi",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"dobutsu": {
+						// Do not edit this name
+						"name": "dobutsu",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"lizard": {
+						// Do not edit this name
+						"name": "lizard",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"samurai": {
+						// Do not edit this name
+						"name": "samurai",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"fairy": {
+						// Do not edit this name
+						"name": "fairy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"pig": {
+						// Do not edit this name
+						"name": "pig",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

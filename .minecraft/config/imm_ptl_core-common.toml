@@ -37,7 +37,7 @@ enableNetherPortalEffect = true
 enableClientPerformanceAdjustment = true
 enableServerPerformanceAdjustment = true
 #Allowed Values: normal, vanilla, adaptive, disabled
-netherPortalMode = "normal"
+netherPortalMode = "vanilla"
 #Allowed Values: normal, toObsidianPlatform, scaledView, vanilla
-endPortalMode = "normal"
+endPortalMode = "vanilla"
 

@@ -1,0 +1,53 @@
+{
+	"mod": "whisperwoods",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"moth": {
+						// Do not edit this name
+						"name": "moth",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 15
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"hirschgeist": {
+						// Do not edit this name
+						"name": "hirschgeist",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"wisp": {
+						// Do not edit this name
+						"name": "wisp",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"hidebehind": {
+						// Do not edit this name
+						"name": "hidebehind",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"zotzpyre": {
+						// Do not edit this name
+						"name": "zotzpyre",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

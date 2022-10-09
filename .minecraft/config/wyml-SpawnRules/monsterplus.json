@@ -1,0 +1,67 @@
+{
+	"mod": "monsterplus",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"swamp_zombie": {
+						// Do not edit this name
+						"name": "swamp_zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mother_lava_squid": {
+						// Do not edit this name
+						"name": "mother_lava_squid",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"lava_squid": {
+						// Do not edit this name
+						"name": "lava_squid",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"glow_skeleton": {
+						// Do not edit this name
+						"name": "glow_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"opalescent_eye": {
+						// Do not edit this name
+						"name": "opalescent_eye",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"abyssologer": {
+						// Do not edit this name
+						"name": "abyssologer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"crystal_zombie": {
+						// Do not edit this name
+						"name": "crystal_zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"spectral_skeleton": {
+						// Do not edit this name
+						"name": "spectral_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"overgrown_skeleton": {
+						// Do not edit this name
+						"name": "overgrown_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

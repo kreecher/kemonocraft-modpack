@@ -1,0 +1,67 @@
+{
+	"mod": "natural_decoration",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"little_sparrow": {
+						// Do not edit this name
+						"name": "little_sparrow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"little_robin": {
+						// Do not edit this name
+						"name": "little_robin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"white": {
+						// Do not edit this name
+						"name": "white",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"morpho": {
+						// Do not edit this name
+						"name": "morpho",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"butterfly": {
+						// Do not edit this name
+						"name": "butterfly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"yellow": {
+						// Do not edit this name
+						"name": "yellow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"little_marsh_tit": {
+						// Do not edit this name
+						"name": "little_marsh_tit",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"small_snails": {
+						// Do not edit this name
+						"name": "small_snails",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"birds": {
+						// Do not edit this name
+						"name": "birds",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

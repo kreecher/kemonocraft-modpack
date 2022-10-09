@@ -1,0 +1,78 @@
+{
+	"mod": "organics",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"planks_furtos": {
+						// Do not edit this name
+						"name": "planks_furtos",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"rocky_furtos": {
+						// Do not edit this name
+						"name": "rocky_furtos",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"tundra_furtos": {
+						// Do not edit this name
+						"name": "tundra_furtos",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"desert_furtos": {
+						// Do not edit this name
+						"name": "desert_furtos",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"drowned_creeper": {
+						// Do not edit this name
+						"name": "drowned_creeper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"terracotta_coloss": {
+						// Do not edit this name
+						"name": "terracotta_coloss",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"sand_catcher": {
+						// Do not edit this name
+						"name": "sand_catcher",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wandering_soul": {
+						// Do not edit this name
+						"name": "wandering_soul",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"soulander": {
+						// Do not edit this name
+						"name": "soulander",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"lava_moloss": {
+						// Do not edit this name
+						"name": "lava_moloss",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

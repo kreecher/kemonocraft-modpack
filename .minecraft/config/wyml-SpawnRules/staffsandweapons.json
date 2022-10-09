@@ -1,0 +1,85 @@
+{
+	"mod": "staffsandweapons",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"cave_captain": {
+						// Do not edit this name
+						"name": "cave_captain",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"icy_creeper": {
+						// Do not edit this name
+						"name": "icy_creeper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"red_armored_cavefighter_ranged": {
+						// Do not edit this name
+						"name": "red_armored_cavefighter_ranged",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"cavefighter_ranged": {
+						// Do not edit this name
+						"name": "cavefighter_ranged",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"wildfire": {
+						// Do not edit this name
+						"name": "wildfire",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"armored_cavefighter_ranged": {
+						// Do not edit this name
+						"name": "armored_cavefighter_ranged",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"armored_cavefighter": {
+						// Do not edit this name
+						"name": "armored_cavefighter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"blue_armored_cavefighter": {
+						// Do not edit this name
+						"name": "blue_armored_cavefighter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"blue_armored_cavefighter_ranged": {
+						// Do not edit this name
+						"name": "blue_armored_cavefighter_ranged",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"cavefighter": {
+						// Do not edit this name
+						"name": "cavefighter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"frozen_zombie": {
+						// Do not edit this name
+						"name": "frozen_zombie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"red_armored_cavefighter": {
+						// Do not edit this name
+						"name": "red_armored_cavefighter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

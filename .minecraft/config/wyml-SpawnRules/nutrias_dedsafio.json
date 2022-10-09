@@ -1,0 +1,19 @@
+{
+	"mod": "nutrias_dedsafio",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"nutria": {
+						// Do not edit this name
+						"name": "nutria",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 15
+					}
+				}
+			}
+		}
+	}
+}

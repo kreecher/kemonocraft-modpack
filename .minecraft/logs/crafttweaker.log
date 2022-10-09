@@ -1,8 +1,8 @@
-[19:45:30.908][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[19:45:32.457][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[19:45:32.462][INFO]: - 'aquaculture' at version '1.18.2-2.3.7'
-[19:45:32.462][INFO]: - 'crafttweaker' at version '9.1.185'
-[19:45:42.911][INFO]: Started loading scripts for loader 'initialize'
-[19:45:43.313][INFO]: Compiling and executing scripts
-[19:45:43.341][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[19:45:43.399][INFO]: Execution for loader 'initialize' completed successfully
+[23:23:55.604][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[23:23:56.587][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[23:23:56.587][INFO]: - 'aquaculture' at version '1.18.2-2.3.7'
+[23:23:56.587][INFO]: - 'crafttweaker' at version '9.1.185'
+[23:24:09.376][INFO]: Started loading scripts for loader 'initialize'
+[23:24:09.702][INFO]: Compiling and executing scripts
+[23:24:09.730][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[23:24:09.812][INFO]: Execution for loader 'initialize' completed successfully

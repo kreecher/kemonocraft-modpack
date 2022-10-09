@@ -1,0 +1,150 @@
+{
+	"mod": "monkemadness",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"japanese_macaque": {
+						// Do not edit this name
+						"name": "japanese_macaque",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"snub_nosed_monkey": {
+						// Do not edit this name
+						"name": "snub_nosed_monkey",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"bush_baby": {
+						// Do not edit this name
+						"name": "bush_baby",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"orangutan": {
+						// Do not edit this name
+						"name": "orangutan",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"proboscis_monkey": {
+						// Do not edit this name
+						"name": "proboscis_monkey",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"mandrill": {
+						// Do not edit this name
+						"name": "mandrill",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"uakari": {
+						// Do not edit this name
+						"name": "uakari",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"baboon": {
+						// Do not edit this name
+						"name": "baboon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"bale_monkey": {
+						// Do not edit this name
+						"name": "bale_monkey",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"rhesus_macaque": {
+						// Do not edit this name
+						"name": "rhesus_macaque",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"tamarin": {
+						// Do not edit this name
+						"name": "tamarin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"lemur": {
+						// Do not edit this name
+						"name": "lemur",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"bonobo": {
+						// Do not edit this name
+						"name": "bonobo",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"gelada": {
+						// Do not edit this name
+						"name": "gelada",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"crested_macaque": {
+						// Do not edit this name
+						"name": "crested_macaque",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"howler_monkey": {
+						// Do not edit this name
+						"name": "howler_monkey",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"gibbon": {
+						// Do not edit this name
+						"name": "gibbon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"slow_loris": {
+						// Do not edit this name
+						"name": "slow_loris",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"tarsier": {
+						// Do not edit this name
+						"name": "tarsier",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"gigantopithecus": {
+						// Do not edit this name
+						"name": "gigantopithecus",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"poacher": {
+						// Do not edit this name
+						"name": "poacher",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"zombie_ape": {
+						// Do not edit this name
+						"name": "zombie_ape",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,252 @@
+{
+	"mod": "youre_seeing_dungeons",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"desert_pillager_patrol": {
+						// Do not edit this name
+						"name": "desert_pillager_patrol",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"light_critter": {
+						// Do not edit this name
+						"name": "light_critter",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"heaven_seed": {
+						// Do not edit this name
+						"name": "heaven_seed",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"seed_heaven_boss": {
+						// Do not edit this name
+						"name": "seed_heaven_boss",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"morbid_creature": {
+						// Do not edit this name
+						"name": "morbid_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"eaged_creature": {
+						// Do not edit this name
+						"name": "eaged_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"desert_pillager_shadow": {
+						// Do not edit this name
+						"name": "desert_pillager_shadow",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pyromaniac_skeleton": {
+						// Do not edit this name
+						"name": "pyromaniac_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"epitaph_creature": {
+						// Do not edit this name
+						"name": "epitaph_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"summoned_horned_skeleton": {
+						// Do not edit this name
+						"name": "summoned_horned_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"despair_creature": {
+						// Do not edit this name
+						"name": "despair_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"the_attractor": {
+						// Do not edit this name
+						"name": "the_attractor",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"gloomy_boss_seed": {
+						// Do not edit this name
+						"name": "gloomy_boss_seed",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"emanciated_creature": {
+						// Do not edit this name
+						"name": "emanciated_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"real_gloomy_skeleton": {
+						// Do not edit this name
+						"name": "real_gloomy_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"silverfish_hive": {
+						// Do not edit this name
+						"name": "silverfish_hive",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hermit_skeleton_mini_boss": {
+						// Do not edit this name
+						"name": "hermit_skeleton_mini_boss",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dimensional_rift": {
+						// Do not edit this name
+						"name": "dimensional_rift",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"supreme_ender_eye": {
+						// Do not edit this name
+						"name": "supreme_ender_eye",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"despair_structure_seed": {
+						// Do not edit this name
+						"name": "despair_structure_seed",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"lying_creature": {
+						// Do not edit this name
+						"name": "lying_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"the_attractor_mutated": {
+						// Do not edit this name
+						"name": "the_attractor_mutated",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hermit_skeleton": {
+						// Do not edit this name
+						"name": "hermit_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"divina_guardian": {
+						// Do not edit this name
+						"name": "divina_guardian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"horned_skeleton": {
+						// Do not edit this name
+						"name": "horned_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"sparks": {
+						// Do not edit this name
+						"name": "sparks",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dimensional_rift_summoned": {
+						// Do not edit this name
+						"name": "dimensional_rift_summoned",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"desert_pillager_slingshot": {
+						// Do not edit this name
+						"name": "desert_pillager_slingshot",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"grief_creature": {
+						// Do not edit this name
+						"name": "grief_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"desert_pillager_tamer": {
+						// Do not edit this name
+						"name": "desert_pillager_tamer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"hatred_creature": {
+						// Do not edit this name
+						"name": "hatred_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"rough_skeleton": {
+						// Do not edit this name
+						"name": "rough_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"light_critter_rings": {
+						// Do not edit this name
+						"name": "light_critter_rings",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"seed_gloomy_ruins": {
+						// Do not edit this name
+						"name": "seed_gloomy_ruins",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"emanciated_creature_tameable": {
+						// Do not edit this name
+						"name": "emanciated_creature_tameable",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"desastrous_creature": {
+						// Do not edit this name
+						"name": "desastrous_creature",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"despair_creature_head": {
+						// Do not edit this name
+						"name": "despair_creature_head",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"despair_boss_seed": {
+						// Do not edit this name
+						"name": "despair_boss_seed",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"desert_pillager": {
+						// Do not edit this name
+						"name": "desert_pillager",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}
